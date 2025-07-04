@@ -8,7 +8,7 @@ import {
 } from "../redux/cartSlice";
 import { MdDelete } from "react-icons/md";
 import { Link } from "react-router-dom";
-import "./cart.css";
+import "./Cart.css";
 
 
 function Cart() {
