@@ -29,7 +29,10 @@ function Home() {
               </div>
             </div>
             <div className="home-img">
-              <img src="/src/image/cover-banner.png" alt="" />
+              <img
+                src="https://www.pngmart.com/files/15/Girl-Holding-Shopping-Bag-Online-Transparent-PNG.png"
+                alt=""
+              />
             </div>
           </div>
           <div className="why-choose-us-container">
@@ -64,10 +67,8 @@ function Home() {
               <div className="footer-box">
                 <div className="web-logo footer-logo">
                   <img
-                    src="/src/image/ecommerce logo.png"
-                    height={100}
-                    className="logo"
-                    alt="kjwvb"
+                                 src="https://file.aiquickdraw.com/imgcompressed/img/compressed_87b773aaff39c90fbb72b38fa084ef34.webp"
+                    alt=""
                   />
                   <h1>SHOPPYGLOBE</h1>
                 </div>

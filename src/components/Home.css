@@ -21,7 +21,8 @@
   z-index: 1;
 }
 .home-img img {
-  width: 100%;
+  width: 77%;
+  margin-left: 60px;
 }
 .home-text {
   width: 50%;
@@ -216,5 +217,9 @@
 }
 .why-choose-us-text h1{
   font-size: 26px;  
+}
+.home-img img {
+  width: 77%;
+  margin-left: 46px;
 }
 }

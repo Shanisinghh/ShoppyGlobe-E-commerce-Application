@@ -16,7 +16,7 @@ function Header() {
         <Link to={"/"} style={{ textDecoration: "none" }} className="footer-link">
           <div className="web-logo">
             <img
-              src="/src/image/ecommerce logo.png"
+              src="https://file.aiquickdraw.com/imgcompressed/img/compressed_87b773aaff39c90fbb72b38fa084ef34.webp"
               height={100}
               className="logo"
               alt="kjwvb"
