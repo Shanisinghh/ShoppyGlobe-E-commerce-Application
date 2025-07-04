@@ -19,7 +19,7 @@ const LoadingComponent = () => (
 );
 
 const App = lazy(() => import("./App.jsx"));
-const Home = lazy(() => import("./components/home.jsx"));
+const Home = lazy(() => import("./components/Home.jsx"));
 const ProductList = lazy(() => import("./components/ProductList.jsx"));
 const ProductDetails = lazy(() => import("./components/ProductDetails.jsx"));
 const Cart = lazy(() => import("./components/Cart.jsx"));

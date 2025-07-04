@@ -10,7 +10,7 @@ import { MdEmail } from "react-icons/md";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
-function home() {
+function Home() {
   return (
     <>
       <div>
@@ -117,4 +117,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;
