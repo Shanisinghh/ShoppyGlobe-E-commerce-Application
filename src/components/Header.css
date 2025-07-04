@@ -1,0 +1,129 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(248, 242, 242, 0.9);
+  z-index: 999;
+  top: 0;
+}
+.web-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.web-logo h1 {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Optional for Firefox */
+  background-clip: text;
+  color: transparent;
+}
+.cart-count {
+  position: absolute;
+  top: -12px;
+  left: 6px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fa0a0a;
+}
+
+.logo {
+  margin: 3px 5px 3px 14px;
+  height: 60px;
+}
+.nav-items {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 60px;
+  margin-right: 83px;
+}
+.cart-icon {
+  font-size: 22px;
+  cursor: pointer;
+  position: relative;
+  z-index: 11;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+.nav-item p {
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.nav-icon {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  /* margin-bottom: 12px; */
+  .nav-icon {
+    transform: translateY(-3px) scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  color: rgb(255, 0, 0);
+}
+.nav-item::after {
+  content: "";
+  display: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease-in-out;
+}
+.nav-item:hover::after {
+  width: 120%;
+}
+
+@media (max-width: 450px) {
+  .logo {
+    margin: 3px 5px 3px 14px;
+    height: 47px;
+  }
+  .nav-items {
+    gap: 21px;
+    margin-right: 24px;
+  }
+  .web-logo h1 {
+    display: none;
+  }
+  .nav-item p {
+    font-size: 16px;
+  }
+  .nav-item::after {
+    height: 1px;
+  }
+  .search-bar {
+    width: 80%;
+    height: 38px;
+    font-size: 15px;
+  }
+
+}

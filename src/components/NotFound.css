@@ -1,0 +1,35 @@
+.not-found-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.not-found{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.not-found h1{
+    font-size: 70px;
+}
+.not-found h2{
+    font-size: 40px;
+}
+.not-found p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+@media (max-width: 468px) {
+    .not-found h1{
+        font-size: 50px;
+    }
+    .not-found h2{
+        font-size: 30px;
+    }
+    .not-found p{
+        font-size: 16px;
+    }
+}
